@@ -25,6 +25,7 @@
     float: right;
     margin-right: 45px;
     flex-wrap: wrap;
+    display: block;
 }
 
 .input{
@@ -33,4 +34,17 @@
 
 .emoji{
     float: right;
+    margin-top: 0%;
+}
+
+.hline{
+    border-bottom: 10px solid #000;
+    display: block;
+    margin-top: 40px;
+}
+
+.vline{
+    border-left: 10px solid #000;
+    height: 600px;
+    padding-left: 40px;
 }
