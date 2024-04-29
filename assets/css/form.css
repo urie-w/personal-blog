@@ -1,1 +1,36 @@
-style.css
+.h2{
+    font-weight: bold;
+    float: right;
+    margin-right: 100px;
+}
+
+
+.summit{
+    background-color: black;
+    color:white;
+    height: 40px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.inputtxt{
+    margin-top: 40px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.userinput{
+    height: 40px;
+    float: right;
+    margin-right: 45px;
+    flex-wrap: wrap;
+}
+
+.input{
+    width: 500px;
+}
+
+.emoji{
+    float: right;
+}
