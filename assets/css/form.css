@@ -26,6 +26,7 @@
     margin-right: 45px;
     flex-wrap: wrap;
     display: block;
+    position:static;
 }
 
 .input{
@@ -47,4 +48,18 @@
     border-left: 10px solid #000;
     height: 600px;
     padding-left: 40px;
+}
+
+.circle{
+    border: 20px solid yellow ;
+    background-color: yellow;
+    border-radius:200px ;
+    width: 400px;
+    height: 400px;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 100px;
+    position:absolute ;
 }
