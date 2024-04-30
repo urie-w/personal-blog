@@ -27,6 +27,7 @@
     flex-wrap: wrap;
     display: block;
     position:static;
+    margin-top: 0px;
 }
 
 .input{
@@ -51,8 +52,8 @@
 }
 
 .circle{
-    border: 20px solid yellow ;
     background-color: yellow;
+    background-image: linear-gradient(yellow, purple);
     border-radius:200px ;
     width: 400px;
     height: 400px;
@@ -62,4 +63,5 @@
     margin-top: 100px;
     margin-left: 100px;
     position:absolute ;
+
 }
