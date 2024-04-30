@@ -34,53 +34,6 @@
     width: 500px;
 }
 
-.toggle{
-    position: relative;
-    height: 30px;
-    width: 60px;
-    border-radius: 40px;
-    background: darkblue;
-    display: flex;
-    align-items: center;transition: 0.5s ease;
-}
-
-.checkbox{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
-    padding: 0;
-    margin: 0;
-    opacity: 0;
-}
-
-.slider{
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background: darkblue;
-    margin: 0 4px 0 4px;
-    box-shadow: inset 10px -2px 0 0 yellow;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-
-.toggle:has(.checkbox:checked){
-    background: aqua;
-}
-
-.checkbox:checked + .slider {
-    transform: translateX(22px);
-    background: yellow;
-    box-shadow: none;
-}
-
-.hline{
-    border-bottom: 10px solid #000;
-    display: block;
-    margin-top: 40px;
-}
-
 .vline{
     border-left: 10px solid #000;
     height: 600px;
